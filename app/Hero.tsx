@@ -59,25 +59,23 @@ export default function CallToActionWithAnnotation() {
                     />
                 </Head >
 
-                <Container maxW={'3xl'}>
+                <Container mt="-50px" maxW={'3xl'}>
                     <Stack
                         as={Box}
                         textAlign={'center'}
                         spacing={{ base: 8, md: 14 }}
                         py={{ base: 20, md: 36 }}>
                         <Heading
-                            fontWeight={600}
+                            fontWeight={'extrabold'}
                             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
                             lineHeight={'110%'}>
-                            Make money from <br />
+                            Launch Your Dev Career With  <br />
                             <Text as={'span'} color={'#b41227'}>
-                                your audience
+                                Web 3 and Metaverse
                             </Text>
                         </Heading>
-                        <Text color={'gray.500'}>
-                            Monetize your content by charging your most loyal readers and reward
-                            them loyalty points. Give back to your loyal readers by granting
-                            them access to your pre-releases and sneak-peaks.
+                        <Text fontWeight={'semibold'} color={'gray.500'}>
+                            Certified Web 3.0 and Metaverse Developer. A One and Quarter Years Panaverse DAO Earn as you Learn Program Getting Ready for the Next Generation of the Internet.
                         </Text>
                         <Stack
                             direction={'column'}
