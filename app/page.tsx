@@ -3,7 +3,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import React from 'react'
 import Navbar from "./navbar";
 import Hero from "./Hero";
-import Mission from "./mission";
+import Mission from "./Mission";
 import Images from "./images";
 
 
