@@ -57,7 +57,7 @@ export default function CallToActionWithAnnotation() {
                             >
                                 Get Started
                             </Button>
-                            <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
+                            <Button variant={'link'} colorScheme={'white'} size={'sm'}>
                                 Learn more
                             </Button>
                         </Stack>

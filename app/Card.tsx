@@ -13,11 +13,13 @@ import {
 const IMAGE =
     'capture-3.jpg';
 
-
 export default function Card(): JSX.Element {
+
     return (
         <>
+
             <Box bgGradient='linear(to-r, #140e26, #140f26)' py={12} px="30px">
+
                 <Box textTransform={'uppercase'}
                     color={'#b41227'}
                     fontWeight={'extrabold'}

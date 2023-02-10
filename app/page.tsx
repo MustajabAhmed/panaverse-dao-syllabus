@@ -6,6 +6,7 @@ import Hero from "./Hero";
 import Mission from "./Mission";
 import Images from "./images";
 import Card from "./Card";
+import Footer from "./Footer";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Images />
       <Mission />
       <Card />
+      <Footer />
     </ChakraProvider>
   )
 }

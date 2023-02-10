@@ -33,7 +33,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
             bg: 'white',
             color: '#3e0c38',
         }}
-        href={'#'}>
+        href={''}>
         {children}
     </Link>
 );
@@ -46,6 +46,7 @@ export default function Simple() {
             <Box color={'white'} bgGradient='linear(to-r, #140e26, #140f26)' py={4} px={9}>
                 <Flex h={100} alignItems={'center'} justifyContent={'space-between'}>
                     <IconButton
+                        bg={'#140e26'}
                         size={'md'}
                         icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
                         aria-label={'Open Menu'}
