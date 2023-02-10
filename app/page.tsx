@@ -7,6 +7,7 @@ import Mission from "./Mission";
 import Images from "./images";
 import Card from "./Card";
 import Footer from "./Footer";
+import About from "./About";
 
 
 export default function Home() {
@@ -15,8 +16,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Images />
-      <Mission />
+      <About />
       <Card />
+      <Mission />
       <Footer />
     </ChakraProvider>
   )

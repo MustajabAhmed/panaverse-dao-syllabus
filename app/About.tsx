@@ -50,30 +50,38 @@ export default function Mission() {
                 fontSize={'50px'}
                 // bg={useColorModeValue('blue.50', 'blue.900')}
                 mb={'80px'}
+                pb='90px'
+                pt={'40px'}
+            // pt='-190px'
             >
                 <Heading>
                     <center>
-                        Our Mission
+                        Outcome
                     </center>
                 </Heading>
             </Box>
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
 
-                <Flex shadow={'dark-lg'}>
+                <Flex >
                     <Image
+                        // shadow={'dark-lg'}
                         rounded={'md'}
                         alt={'feature image'}
                         src={
-                            'capture-4.png'
+                            'outcome-poster.webp'
                         }
                         objectFit={'cover'}
+                        alignSelf="flex-end"
+                        // height="90%"
+                        mt={'-100px'}
+                    // width={'100%'}
                     />
                 </Flex>
                 <Stack spacing={4}>
 
-                    <Heading>Earn While You Learn</Heading>
+                    <Heading>The Outcome for Participants of the Program</Heading>
                     <Text color={'gray.500'} fontSize={'lg'} fontWeight="semibold">
-                        Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, Ambient Computing/IoT, Network Automation, and Bioinformatics Technologies
+                        Graduates of this program will possess Panaverse DAO-marketed goods (Full-Stack App Templates, AR and VR Experiences, and APIs) and, if desired, will be able to begin by delivering services at a rate of $50 per hour ($96,000 per year). This would provide a tremendous chance for Pakistani professionals and students to improve their financial status while simultaneously providing a much-needed boost to the economy by increasing software exports. It resembles a cross between a corporate venture and an educational project.
                     </Text>
                     <Stack
                         spacing={4}

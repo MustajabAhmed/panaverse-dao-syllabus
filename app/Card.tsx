@@ -25,7 +25,9 @@ export default function Card(): JSX.Element {
                     fontWeight={'extrabold'}
                     fontSize={'50px'}
                     // bg={useColorModeValue('blue.50', 'blue.900')}
-                    mb={'90px'}>
+                    mb={'90px'}
+                    mt="-90px"
+                >
                     <Heading>
                         <center>
                             Our Courses
